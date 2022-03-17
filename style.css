@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Poiret+One&display=swap');
+
+body {
+  background-color: #212F45;
+  text-align: center;
+}
+
+h1 {
+  /* color:rgb(63, 15, 107); */
+  color: #261a35;
+  font-family: "Megrim";
+  font-size: 180px;
+  text-align: center;
+  margin: 0;
+  text-shadow: 4.5px 4px 1.5px #27025577;
+}
+
+h2 {
+  /* color:rgb(9, 59, 92); */
+  color: #0e5761;
+  font-family: "Poiret One";
+  font-size: 80px;
+  text-align: center;
+  margin: 0, auto;
+  line-height: 0cm;
+  text-shadow: 3px 2.5px 0.5px #03447983;
+}
+
+img {
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+  line-height: 3cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+p {
+  color: #0B525B;
+  font-family: "Poiret One";
+  font-size: 55px;
+  text-align: center;
+  margin: 0, auto;
+  text-shadow: 1px 0.5px 1px #118291;
+}
+
+button {
+  background-color: #FDD44F;
+  text-align: center;
+  height: 60px, 30px, 0, 0;
+  font-family: "Poiret One";
+  font-size: 50px;
+  font-weight: 595;
+  border-radius: 4px;
+  margin-top: 0mm;
+  margin-bottom: 5mm;
+  text-shadow: 1.5px 0.5px 1.5px #7c620a;
+}
+
+a {
+  /* font-family: "Arial", "Helvetica", sans-serif; */
+  font-size: 20px;
+  color: #FDD44F;
+  text-align: center;
+}
+
+a:hover {
+  /* font-family: "Arial", "Helvetica", sans-serif; */
+  /* color: #37A5B9; */
+  color: #118291;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+  width: 100px;
+  display:inline-block;
+  padding: 20px 30px;
+}
+
+.text {
+  background-color: #261a358a;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.card {
+  background-color: #261a358a;
+  text-align: center;
+  /* width: 40px;
+  display:inline-block;
+  padding: 0px, 20px; */
+  /* padding-top: 1mm;
+  padding-bottom: 1mm;
+  padding-left: 1mm;
+  padding-right: 1mm; */
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  /* box-shadow: 10px, 8px, 5px, #df1a79; */
+}
+
+/* Media */
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
