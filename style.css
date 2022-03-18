@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&family=Poiret+One&display=swap');
 
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+/* @media (max-width:560px)  {
+  .vc_separator.vc_sep_double {width:100%;}
+  } */
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
 body {
   background-color: #212F45;
   text-align: center;
@@ -9,21 +31,26 @@ h1 {
   /* color:rgb(63, 15, 107); */
   color: #261a35;
   font-family: "Megrim";
-  font-size: 180px;
+  font-size: 11.6vw;
   text-align: center;
   margin: 0;
+  padding: 0;
   text-shadow: 4.5px 4px 1.5px #27025577;
+  white-space: nowrap;
+  justify-content: center;
 }
 
 h2 {
   /* color:rgb(9, 59, 92); */
   color: #0e5761;
   font-family: "Poiret One";
-  font-size: 80px;
+  font-size: 6.5vw;
   text-align: center;
   margin: 0, auto;
   line-height: 0cm;
   text-shadow: 3px 2.5px 0.5px #03447983;
+  white-space: nowrap;
+  justify-content: center;
 }
 
 img {
@@ -39,7 +66,7 @@ img {
 p {
   color: #0B525B;
   font-family: "Poiret One";
-  font-size: 55px;
+  font-size: 5vw;
   text-align: center;
   margin: 0, auto;
   text-shadow: 1px 0.5px 1px #118291;
@@ -50,7 +77,7 @@ button {
   text-align: center;
   height: 60px, 30px, 0, 0;
   font-family: "Poiret One";
-  font-size: 50px;
+  font-size: 5vw;
   font-weight: 595;
   border-radius: 4px;
   margin-top: 0mm;
@@ -107,25 +134,34 @@ li {
   /* box-shadow: 10px, 8px, 5px, #df1a79; */
 }
 
-/* Media */
-
-@media (max-width: 960px) {
-
-  .container {
-    width: 700px;
-  }
+.invisible {
+  background-color: #212F45;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0, auto;
+  white-space: nowrap;
+  justify-content: center;
+  padding: 0;
 }
 
-@media (max-width: 720px) {
-
-  .container {
-    width: 500px;
-  }
+.name {
+  background-color: #212F45;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0, auto;
+  white-space: nowrap;
+  justify-content: center;
+  padding: 0;
+  overflow-wrap: break-word;
 }
 
-@media (max-width: 540px) {
-
-  .container {
-    width: 300px;
-  }
+.title {
+  background-color: #212F45;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0, auto;
+  white-space: nowrap;
+  justify-content: center;
+  padding: 0;
+  overflow-wrap: break-word;
 }
